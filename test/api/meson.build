@@ -178,6 +178,16 @@ if not get_option('raster').disabled()
     protocol: 'tap',
     env: env,
     suite: ['api', 'raster'])
+
+  test('test-raster-thai',
+    executable('test-raster-thai', 'test-raster-thai.cc',
+      include_directories: [incconfig],
+      dependencies: [libharfbuzz_raster_dep],
+      install: false,
+    ),
+    protocol: 'tap',
+    env: env,
+    suite: ['api', 'raster'])
 endif
 
 if not get_option('gpu').disabled()
