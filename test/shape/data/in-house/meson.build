@@ -64,6 +64,7 @@ in_house_tests = [
   'mark-filtering-sets.tests',
   'mongolian-variation-selector.tests',
   'myanmar-misc.tests',
+  'myanmar-reorder.tests',
   'myanmar-syllable.tests',
   'myanmar-zawgyi.tests',
   'nested-mark-filtering-sets.tests',
