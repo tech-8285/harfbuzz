@@ -44,6 +44,7 @@ tests = [
   'test-ot-extents-cff.c',
   'test-ot-metrics-tt-var.c',
   'test-paint.c',
+  'test-partial-shaping.c',
   'test-subset-repacker.c',
   'test-set.c',
   'test-shape.c',
